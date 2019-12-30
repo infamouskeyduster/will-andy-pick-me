@@ -10,3 +10,144 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button:focus {
+  outline: 0;
+}
+
+h1 {
+  color: #2B4E80;
+  font-size: 3em;
+  text-align: center;
+}
+
+.main-section {
+display: flex;
+flex-direction: row;
+}
+
+.left-half {
+  flex: 1;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: flex-end;
+  height: 500px;
+}
+
+.right-half {
+  flex: 1;
+  /* background-color: lightgrey; */
+  display: flex;
+  height: 500px;
+}
+
+.magic-eight-ball-section {
+  flex: .8;
+  background-color: #E6ECF4;
+}
+
+.question-answer-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-top: 2%;
+  width: 93%;
+}
+
+.ask-input {
+  height: 55px;
+}
+
+.ask-input,
+::placeholder {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.get-answer-btn {
+  background-color: #607AA0;
+  color: #ffffff;
+  height: 55px;
+  margin-top: 1%;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.get-answer-btn:hover {
+  background-color: #1C3455;
+}
+
+.eight-ball-img-container {
+  position: relative;
+  margin-top: 10%;
+}
+
+.eight-ball-img-container img {
+  position: absolute;
+  margin-top: -12%;
+  left: 34%;
+  width: 33%;
+}
+
+.hidden {
+  display: none;
+}
+
+.display-question {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 1.6em;
+  font-style: italic;
+}
+
+.display-response {
+  margin-top: 1%;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.clear-btn {
+  position: absolute;
+  top: 63%;
+  right: 51.7%;
+  height: 35px;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 63%;
+  right: 82.8%;
+  height: 35px;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.disabled {
+  background-color: #D0CDCD;
+  cursor: not-allowed;
+}
+
+.active {
+  background-color: #DE4841;
+  cursor: pointer;
+}
+
+.favorites-displayed {
+  position: absolute;
+  top: 71%;
+  left: 10.5%;
+  color: #1C3455;
+  font-size: 1.2em;
+  letter-spacing: .04em;
+}
+
+.right-half img {
+  /* transform: scale(.85); */
+  margin-left: 15%;
+}
