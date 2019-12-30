@@ -1,16 +1,3 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
-
-/*
-COLORS
-H1, Get answer button, text in input field: #2B4E80;
-Get answer button disabled: #607AA0;
-Get answer button hover: #1C3455;
-light blue background: #E6ECF4;
-clear button: #DE4841;
-clear button disabled: #D0CDCD
-*/
-
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -32,7 +19,6 @@ flex-direction: row;
 
 .left-half {
   flex: 1;
-  /* background-color: grey; */
   display: flex;
   justify-content: flex-end;
   height: 500px;
@@ -40,7 +26,6 @@ flex-direction: row;
 
 .right-half {
   flex: 1;
-  /* background-color: lightgrey; */
   display: flex;
   height: 500px;
 }
@@ -140,7 +125,7 @@ flex-direction: row;
 
 .favorites-displayed {
   position: absolute;
-  top: 71%;
+  top: 79%;
   left: 10.5%;
   color: #1C3455;
   font-size: 1.2em;
@@ -148,6 +133,5 @@ flex-direction: row;
 }
 
 .right-half img {
-  /* transform: scale(.85); */
   margin-left: 15%;
 }
